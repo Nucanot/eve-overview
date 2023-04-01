@@ -3,7 +3,7 @@ require 'active_support/core_ext/string'
 require 'yaml'
 
 
-OVERVIEW_NAME = 'Overview'
+BUILD_DIR_NAME = 'Overview'
 FONT_SIZE = 15
 
 
@@ -11,8 +11,8 @@ task default: [:build, :zip]
 task build: [:reset_build_directory, :compile_overviews]
 
 task :reset_build_directory do
-  FileUtils.remove_entry_secure OVERVIEW_NAME if Dir.exist? OVERVIEW_NAME
-  FileUtils.mkdir_p OVERVIEW_NAME
+  FileUtils.remove_entry_secure BUILD_DIR_NAME if Dir.exist? BUILD_DIR_NAME
+  FileUtils.mkdir_p BUILD_DIR_NAME
 end
 
 task :compile_overviews do
@@ -21,14 +21,14 @@ task :compile_overviews do
     name = File.basename(path, File.extname(path))
     overview[:tabs].each do |tab|
       overview[:tab] = tab
-      compile_overview name, File.join(OVERVIEW_NAME, "#{name}-#{tab}.yaml"), overview
+      compile_overview name, File.join(BUILD_DIR_NAME, "#{name}-#{tab}.yaml"), overview
     end
   end
 end
 
 task :zip do
   system 'zip', '-r', "eve-overview-v#{File.read('VERSION').strip}.zip",
-         OVERVIEW_NAME, 'README.md', 'LICENSE.txt', 'CHANGELOG.md', 'VERSION'
+         BUILD_DIR_NAME, 'README.md', 'LICENSE.txt', 'CHANGELOG.md', 'VERSION'
 end
 
 def compile_overview(name, path, overview)
