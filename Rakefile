@@ -4,6 +4,8 @@ require 'yaml'
 
 
 OVERVIEW_NAME = 'Overview'
+FONT_SIZE = 15
+
 
 task default: [:build, :zip]
 task build: [:reset_build_directory, :compile_overviews]
@@ -97,7 +99,7 @@ def format_preset_name(preset)
 end
 
 def format_tab_name(tab)
-  "<color=0x#{tab[:color]}>   #{tab[:name]}   </color>"
+  "<color=0x#{tab[:color]}><fontsize=#{FONT_SIZE}><b> #{tab[:name]} </b></fontsize></color>"
 end
 
 def merge_states(names)
