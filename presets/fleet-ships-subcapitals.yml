@@ -7,3 +7,4 @@ groups:
   - ships-subcapitals
 states:
   - fleet
+enabled: false

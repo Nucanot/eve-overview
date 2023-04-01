@@ -7,3 +7,4 @@ groups:
   - drones-combat
 states:
   - hostile
+enabled: false

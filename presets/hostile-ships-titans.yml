@@ -7,3 +7,4 @@ groups:
   - _ship-titan
 states:
   - hostile
+enabled: false

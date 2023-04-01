@@ -9,3 +9,4 @@ groups:
   - drones-fighters
 states:
   - friendly
+enabled: false

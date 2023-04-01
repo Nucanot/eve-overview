@@ -7,3 +7,4 @@ groups:
   - _ship-stealth_bomber
 states:
   - hostile
+enabled: false

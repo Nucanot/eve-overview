@@ -7,3 +7,4 @@ groups:
   - ships-subcapitals
 states:
   - friendly
+enabled: false

@@ -7,3 +7,4 @@ groups:
   - _ship-carrier
 states:
   - hostile
+enabled: false

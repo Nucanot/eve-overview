@@ -10,3 +10,4 @@ groups:
   - _ship-logistics_frigate
 states:
   - fleet
+enabled: false

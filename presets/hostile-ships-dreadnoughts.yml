@@ -7,3 +7,4 @@ groups:
   - _ship-dreadnought
 states:
   - hostile
+enabled: false

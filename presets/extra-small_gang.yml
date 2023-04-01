@@ -10,3 +10,4 @@ groups:
   - rats
 states:
   - all
+enabled: false

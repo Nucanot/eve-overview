@@ -10,3 +10,4 @@ groups:
   - _ship-logistics_frigate
 states:
   - friendly
+enabled: false

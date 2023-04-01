@@ -8,3 +8,4 @@ groups:
   - _ship
 states:
   - all
+enabled: false

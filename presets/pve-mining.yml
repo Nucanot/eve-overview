@@ -11,3 +11,4 @@ groups:
   - _drone
 states:
   - hostile
+enabled: false

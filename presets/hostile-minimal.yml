@@ -8,3 +8,4 @@ groups:
   - _ship
 states:
   - hostile
+enabled: false
