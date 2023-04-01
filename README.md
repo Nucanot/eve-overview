@@ -58,13 +58,13 @@ Ruby ≥ 2 with [Bundler](http://bundler.io/).
 Install the required gems with
 
 ```bash
-$ bundle
+$ bundle config set --local path 'vendor/bundle'
 ```
 
 Build the overview files to the `Overview` directory with
 
 ```bash
-$ rake
+$ bundler exec rake
 ```
 
 ## Development and Testing
