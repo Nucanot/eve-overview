@@ -1,6 +1,6 @@
 ---
 name: drones
-symbol: ♞ hostile
+symbol: hostile
 level: 1
 groups:
   - common-pvp

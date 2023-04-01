@@ -1,7 +1,7 @@
 ---
 name: ""
-symbol: ♣ pve
-level: 0
+symbol: zzz pve
+level: 4
 groups:
   - common-pve
   - rats

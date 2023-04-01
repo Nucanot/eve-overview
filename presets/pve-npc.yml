@@ -1,7 +1,7 @@
 ---
 name: npc
-symbol: ♣ pve
-level: 1
+symbol: zzz pve
+level: 3
 groups:
   - common-pve
   - rats

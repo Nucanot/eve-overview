@@ -1,6 +1,6 @@
 ---
 name: ships
-symbol: ★ friendly
+symbol: friendly
 level: 1
 groups:
   - common-pvp

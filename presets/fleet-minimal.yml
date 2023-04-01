@@ -1,7 +1,7 @@
 ---
 name: minimal
-symbol: ☆ fleet
-level: 1
+symbol: fleet
+level: 3
 groups:
   - common-minimal
   - _celestial-sun

@@ -1,7 +1,7 @@
 ---
 name: minimal
-symbol: ❏ brackets
-level: 1
+symbol: zzz brackets
+level: 3
 groups:
   - _celestial-sun
   - beacons

@@ -1,6 +1,6 @@
 ---
 name: cruisers
-symbol: ♞ hostile
+symbol: hostile
 level: 2
 groups:
   - common-minimal-ships

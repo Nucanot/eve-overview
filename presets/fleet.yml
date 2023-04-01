@@ -1,7 +1,7 @@
 ---
 name: ""
-symbol: ☆ fleet
-level: 0
+symbol: fleet
+level: 4
 groups:
   - common-pvp
   - _ship

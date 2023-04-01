@@ -1,7 +1,7 @@
 ---
 name: minimal
-symbol: ★ friendly
-level: 1
+symbol: friendly
+level: 3
 groups:
   - common-minimal
   - _celestial-sun

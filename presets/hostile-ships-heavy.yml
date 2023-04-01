@@ -1,6 +1,6 @@
 ---
 name: heavyweight
-symbol: ♞ hostile
+symbol: hostile
 level: 3
 groups:
   - common-minimal-ships

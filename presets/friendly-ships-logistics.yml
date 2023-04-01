@@ -1,7 +1,7 @@
 ---
 name: logistics
-symbol: ★ friendly
-level: 2
+symbol: friendly
+level: 3
 groups:
   - common-minimal-ships
   - _ship-logistics

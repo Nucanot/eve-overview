@@ -1,6 +1,6 @@
 ---
 name: triage
-symbol: ★ friendly
+symbol: friendly
 level: 3
 groups:
   - common-minimal-ships

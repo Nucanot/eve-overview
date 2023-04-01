@@ -1,7 +1,7 @@
 ---
 name: warpout
-symbol: ✪ extra
-level: 1
+symbol: yyy extra
+level: 3
 groups:
   - common-minimal
   - _celestial-planet

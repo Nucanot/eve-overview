@@ -1,7 +1,7 @@
 ---
 name: ""
-symbol: ✈ travel
-level: 0
+symbol: travel
+level: 4
 groups:
   - common-minimal
   - gates
