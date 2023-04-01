@@ -2,14 +2,15 @@ require 'active_support/core_ext/hash'
 require 'active_support/core_ext/string'
 require 'yaml'
 
-build = 'Overview'
+
+OVERVIEW_NAME = 'Overview'
 
 task default: [:build, :zip]
 task build: [:reset_build_directory, :compile_overviews]
 
 task :reset_build_directory do
-  FileUtils.remove_entry_secure build if Dir.exist? build
-  FileUtils.mkdir_p build
+  FileUtils.remove_entry_secure OVERVIEW_NAME if Dir.exist? OVERVIEW_NAME
+  FileUtils.mkdir_p OVERVIEW_NAME
 end
 
 task :compile_overviews do
@@ -18,14 +19,14 @@ task :compile_overviews do
     name = File.basename(path, File.extname(path))
     overview[:tabs].each do |tab|
       overview[:tab] = tab
-      compile_overview name, File.join(build, "#{name}-#{tab}.yaml"), overview
+      compile_overview name, File.join(OVERVIEW_NAME, "#{name}-#{tab}.yaml"), overview
     end
   end
 end
 
 task :zip do
   system 'zip', '-r', "eve-overview-v#{File.read('VERSION').strip}.zip",
-         build, 'README.md', 'LICENSE.txt', 'CHANGELOG.md', 'VERSION'
+         OVERVIEW_NAME, 'README.md', 'LICENSE.txt', 'CHANGELOG.md', 'VERSION'
 end
 
 def compile_overview(name, path, overview)
