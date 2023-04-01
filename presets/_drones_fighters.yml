@@ -1,0 +1,9 @@
+---
+name: drones & fighters
+symbol: hostile
+level: 3
+groups:
+  - drones-combat
+  - drones-fighters
+states:
+  - hostile
