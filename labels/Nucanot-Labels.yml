@@ -1,0 +1,116 @@
+---
+shipLabelOrder:
+  - ship type
+  - linebreak
+  - null
+  - pilot name
+  - alliance
+  - corporation
+  - ship name
+
+shipLabels:
+  - - null
+    - - - post
+        - ''
+      - - pre
+        - ''
+      - - state
+        - 0
+      - - type
+        - null
+  - - alliance
+    - - - fontsize
+        - 9
+      - - post
+        - '}'
+      - - pre
+        - ' {'
+      - - state
+        - 1
+      - - type
+        - alliance
+  - - corporation
+    - - - bold
+        - false
+      - - color
+        - null
+      - - fontsize
+        - 9
+      - - italic
+        - false
+      - - post
+        - ']'
+      - - pre
+        - '['
+      - - state
+        - 1
+      - - type
+        - corporation
+      - - underline
+        - false
+  - - linebreak
+    - - - bold
+        - false
+      - - color
+        - null
+      - - fontsize
+        - null
+      - - italic
+        - false
+      - - post
+        - null
+      - - pre
+        - null
+      - - state
+        - null
+      - - type
+        - linebreak
+      - - underline
+        - false
+  - - pilot name
+    - - - fontsize
+        - 9
+      - - post
+        - ''
+      - - pre
+        - ''
+      - - state
+        - 1
+      - - type
+        - pilot name
+  - - ship name
+    - - - bold
+        - false
+      - - color
+        - null
+      - - fontsize
+        - null
+      - - italic
+        - false
+      - - post
+        - ''
+      - - pre
+        - ''
+      - - state
+        - 0
+      - - type
+        - ship name
+      - - underline
+        - false
+  - - ship type
+    - - - bold
+        - 0
+      - - color
+        - - 1.0
+          - 1.0
+          - 0.25
+      - - fontsize
+        - 12
+      - - post
+        - ''
+      - - pre
+        - ''
+      - - state
+        - 1
+      - - type
+        - ship type
