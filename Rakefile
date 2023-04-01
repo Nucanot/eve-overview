@@ -44,8 +44,11 @@ def compile_overview(name, path, overview)
   end
 
   presets = []
-  Dir['presets/*.yml'].each do |preset|
-    presets << format_preset(load_preset(preset))
+  Dir['presets/*.yml'].each do |prese_name|
+    preset = load_preset(prese_name)
+    if preset
+      presets << format_preset(preset)
+    end
   end
   overview_hash.merge! 'presets' => presets
 
@@ -76,10 +79,19 @@ def load_preset_by_name(preset)
   )
 end
 
-def load_preset(preset)
-  ActiveSupport::HashWithIndifferentAccess.new(
-    YAML.load_file preset
+def load_preset(preset_name)
+  preset = ActiveSupport::HashWithIndifferentAccess.new(
+    YAML.load_file preset_name
   )
+  if preset.key?(:enabled)
+    if preset[:enabled]
+      return prset
+    else
+      return nil
+    end
+  else
+    return preset
+  end
 end
 
 def format_preset(preset)
