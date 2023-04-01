@@ -1,12 +1,14 @@
 ---
-name: skirmish ◯
+name: extended
 symbol: ✥ dscan
-level: 1
+level: 3
 groups:
   - common-pvp
   - _ship
   - gates
   - _celestial-force_field
-  - _celestial-planet
+  - _drone
+  - _fighter
+  - _celestial-entosis_command_node
 states:
   - hostile
