@@ -1,10 +1,10 @@
 ---
-name: hostiles only +pods
+name: hostiles only -pods
 symbol: zzz main
 level: 3
 groups:
   - common-pvp
-  - _ship
+  - _ship_no-pods
   - _structure
 states:
   - hostile

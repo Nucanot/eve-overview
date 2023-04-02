@@ -1,9 +1,11 @@
 ---
-name: clean grid
+name: "hostile + friendly -pods"
 symbol: zzz main
 level: 3
 groups:
+  - common-pvp
   - _ship_no-pods
-  - _celestial-sun
+  - rats
+  - _structure
 states:
   - all

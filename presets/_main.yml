@@ -1,5 +1,5 @@
 ---
-name: "hostile + friendly"
+name: "hostile + friendly +pods"
 symbol: zzz main
 level: 3
 groups:
