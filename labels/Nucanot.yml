@@ -1,12 +1,12 @@
 ---
 shipLabelOrder:
   - ship type
-  - linebreak
-  - null
-  - pilot name
-  - alliance
-  - corporation
-  - ship name
+  # - linebreak
+  # - null
+  # - pilot name
+  # - alliance
+  # - corporation
+  # - ship name
 
 shipLabels:
   - - null
