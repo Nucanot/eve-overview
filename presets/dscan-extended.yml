@@ -5,7 +5,6 @@ level: 3
 groups:
   - common-pvp
   - _ship
-  - gates
   - _celestial-force_field
   - _drone
   - _fighter
