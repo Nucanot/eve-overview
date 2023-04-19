@@ -1,14 +1,13 @@
 ---
-name: "minimal"
-symbol: ✥ dscan
+name: "Minimal"
+symbol: ✥ D-Scan
 level: 3
 groups:
-  - common-pvp
+  - common-minimal
+  - _deployable
   - _ship
-  - gates
   - _celestial-force_field
-  # - _celestial-planet
-  # - _orbitals-orbital_infrastructure
-  # - _celestial-asteroid_belt
+  - _station
+  - _structure
 states:
   - hostile
