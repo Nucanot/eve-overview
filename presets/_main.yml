@@ -7,5 +7,7 @@ groups:
   - _ship
   - rats
   - _structure
+  - _starbase-cyno_jammer
+  - _sovereignty_structures
 states:
   - all
