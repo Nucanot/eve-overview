@@ -1,45 +1,50 @@
 ---
-- name: ▲ # friendly+hostile ships, gates, structures, deployables, sun, rats
-  color: FFFFBB33
+- name: ▲▲ # friendly+hostile ships, gates, structures, deployables, sun, rats
+  color: FF96AED0
   overview: _main
   bracket: brackets-all
 
-- name: ▲▼  # friendly+hostile ships, gates, structures, deployables, sun, rats
-  color: FFFF4444
+- name: ▲  # hostile ships, gates, structures, deployables, sun, rats
+  color: FFFF1A1A
   overview: _main-hostiles-no-pods
   bracket: brackets-all
 
-- name: ⊞ # Clean grid: hostile ships only
-  color: FF99CC00
+- name: ⊞⊞ # Clean grid: hostiles+friendlies
+  color: FF96AED0
   overview: _clean-grid
   bracket: brackets-all
 
-- name: ✲ # Drones and fighters only
-  color: FFAA66CC
-  overview: _drones_fighters
+- name: ⊞ # Clean grid: hostiles only
+  color: FFFF1A1A
+  overview: _clean-grid-hostiles
   bracket: brackets-all
 
-- name: ({}) # ♀ GTFO
-  color: FFffc0cb
+- name: ({}) # GTFO
+  color: FFF3E702
   overview: extra-warpout
   bracket: brackets-all
 
-- name: ❏ # Wrecks and cans
-  color: FF33B5E5
-  overview: extra-loot
+- name: ✲ # Drones and fighters only
+  color: FF00FF00
+  overview: _drones_fighters
   bracket: brackets-all
 
 - name: 1 # Extra slot 1
-  color: FF33B5E5
+  color: FFA83EA2
   overview: hostile-ships-tackle
   bracket: brackets-all
 
 - name: 2 # Extra slot 2
-  color: FF33B5E5
+  color: FFA83EA2
   overview: hostile-ships-command_destroyers
   bracket: brackets-all
 
+- name: ❏ # Wrecks and cans
+  color: FF656862
+  overview: extra-loot
+  bracket: brackets-all
+
 - name: ✈ # Travel
-  color: FF33B5E5
+  color: FFFFFFFF
   overview: travel
   bracket: brackets-all
