@@ -1,11 +1,13 @@
 ---
-name: harvestables
-symbol: zzz pve
+name: Harvestables
+symbol: PVE
 level: 3
 groups:
   - common-pve
   - _asteroid
   - _celestial-harvestable_cloud
+  - rats
+  - _celestial-sun
 states:
   - hostile
-enabled: false
+
