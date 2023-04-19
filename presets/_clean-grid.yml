@@ -1,9 +1,13 @@
 ---
-name: clean grid
-symbol: zzz main
+name: Clean Grid (Hostiles + Friendlies)
+symbol: Main
 level: 3
 groups:
   - _ship_no-pods
   - _celestial-sun
+  - _celestial-stargate
+  - _celestial-wormhole
+  - _celestial-ess
+  - cynos
 states:
   - all
