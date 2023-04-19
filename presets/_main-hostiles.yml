@@ -6,5 +6,6 @@ groups:
   - common-pvp
   - _ship
   - _structure
+  - _sovereignty_structures
 states:
   - hostile
