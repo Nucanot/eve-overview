@@ -1,6 +1,6 @@
 ---
-name: pvp
-symbol: travel
+name: PVP
+symbol: Travel
 level: 3
 groups:
   - common-pvp

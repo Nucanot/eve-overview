@@ -1,6 +1,6 @@
 ---
-name: dreadnoughts
-symbol: hostile
+name: Dreadnoughts
+symbol: Hostile
 level: 2
 groups:
   - common-minimal-ships

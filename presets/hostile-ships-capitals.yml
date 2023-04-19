@@ -1,6 +1,6 @@
 ---
-name: capitals
-symbol: hostile
+name: Capitals
+symbol: Hostile
 level: 2
 groups:
   - common-minimal-ships

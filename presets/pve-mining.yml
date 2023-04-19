@@ -1,6 +1,6 @@
 ---
-name: mining
-symbol: zzz pve
+name: Mining
+symbol: PVE
 level: 3
 groups:
   - common-pve

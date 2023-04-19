@@ -1,6 +1,6 @@
 ---
-name: minimal
-symbol: friendly
+name: Minimal
+symbol: Friendly
 level: 3
 groups:
   - common-minimal

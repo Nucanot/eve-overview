@@ -1,6 +1,6 @@
 ---
-name: minimal
-symbol: fleet
+name: Minimal
+symbol: Fleet
 level: 3
 groups:
   - common-minimal

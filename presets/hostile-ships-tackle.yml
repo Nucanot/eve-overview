@@ -1,6 +1,6 @@
 ---
-name: tackle
-symbol: hostile
+name: Tackle
+symbol: Hostile
 level: 3
 groups:
   - common-minimal-ships

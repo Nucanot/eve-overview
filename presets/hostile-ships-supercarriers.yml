@@ -1,6 +1,6 @@
 ---
-name: supercarriers
-symbol: hostile
+name: Supercarriers
+symbol: Hostile
 level: 2
 groups:
   - common-minimal-ships

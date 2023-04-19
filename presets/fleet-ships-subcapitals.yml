@@ -1,6 +1,6 @@
 ---
-name: sub-capitals
-symbol: fleet
+name: Sub-Capitals
+symbol: Fleet
 level: 3
 groups:
   - common-minimal-ships

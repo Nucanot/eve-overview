@@ -1,6 +1,6 @@
 ---
-name: ships
-symbol: hostile
+name: Ships
+symbol: Hostile
 level: 2
 groups:
   - common-pvp

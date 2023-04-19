@@ -1,6 +1,6 @@
 ---
-name: loot
-symbol: yyy extra
+name: Loot
+symbol: Extra
 level: 3
 groups:
   - common-minimal

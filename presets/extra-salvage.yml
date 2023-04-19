@@ -1,6 +1,6 @@
 ---
-name: salvage
-symbol: yyy extra
+name: Salvage
+symbol: Extra
 level: 3
 groups:
   - common-pvp

@@ -1,6 +1,6 @@
 ---
-name: warpout
-symbol: yyy extra
+name: Warpout
+symbol: Extra
 level: 3
 groups:
   - common-minimal

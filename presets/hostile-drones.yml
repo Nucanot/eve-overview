@@ -1,6 +1,6 @@
 ---
-name: drones
-symbol: hostile
+name: Drones
+symbol: Hostile
 level: 1
 groups:
   - common-pvp

@@ -1,6 +1,6 @@
 ---
-name: "hostile + friendly -pods"
-symbol: zzz main
+name: "Hostiles + Friendlies -Pods"
+symbol: Main
 level: 3
 groups:
   - common-pvp

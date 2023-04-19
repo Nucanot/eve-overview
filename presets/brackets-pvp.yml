@@ -1,6 +1,6 @@
 ---
-name: pvp
-symbol: zzz brackets
+name: PVP
+symbol: ZZZ Brackets
 level: 3
 groups:
   - _ship

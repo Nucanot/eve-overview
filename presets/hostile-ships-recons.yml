@@ -1,6 +1,6 @@
 ---
-name: recons
-symbol: hostile
+name: Recons
+symbol: Hostile
 level: 2
 groups:
   - common-minimal-ships

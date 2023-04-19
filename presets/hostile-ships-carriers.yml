@@ -1,6 +1,6 @@
 ---
-name: carriers
-symbol: hostile
+name: Carriers
+symbol: Hostile
 level: 2
 groups:
   - common-minimal-ships

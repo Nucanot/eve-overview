@@ -1,6 +1,6 @@
 ---
-name: hostiles only -pods
-symbol: zzz main
+name: Hostiles -Pods
+symbol: Main
 level: 3
 groups:
   - common-pvp

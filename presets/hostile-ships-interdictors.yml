@@ -1,6 +1,6 @@
 ---
-name: interdictors
-symbol: hostile
+name: Interdictors
+symbol: Hostile
 level: 2
 groups:
   - common-minimal-ships

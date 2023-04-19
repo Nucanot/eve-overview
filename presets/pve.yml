@@ -1,6 +1,6 @@
 ---
 name: ""
-symbol: zzz pve
+symbol: PVE
 level: 4
 groups:
   - common-pve

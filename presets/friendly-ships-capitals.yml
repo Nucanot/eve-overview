@@ -1,6 +1,6 @@
 ---
-name: capitals
-symbol: friendly
+name: Capitals
+symbol: Friendly
 level: 2
 groups:
   - common-minimal-ships

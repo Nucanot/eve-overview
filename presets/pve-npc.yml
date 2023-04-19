@@ -1,6 +1,6 @@
 ---
-name: npc
-symbol: zzz pve
+name: NPC
+symbol: PVE
 level: 3
 groups:
   - common-pve

@@ -1,6 +1,6 @@
 ---
-name: all capitals
-symbol: fleet
+name: All Capitals
+symbol: Fleet
 level: 3
 groups:
   - common-minimal-ships

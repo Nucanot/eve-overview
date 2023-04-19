@@ -1,6 +1,6 @@
 ---
-name: hide stations
-symbol: travel
+name: No Stations
+symbol: Travel
 level: 3
 groups:
   - common-minimal

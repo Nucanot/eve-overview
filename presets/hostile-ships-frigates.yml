@@ -1,6 +1,6 @@
 ---
-name: frigates
-symbol: hostile
+name: Frigates
+symbol: Hostile
 level: 2
 groups:
   - common-minimal-ships

@@ -1,6 +1,6 @@
 ---
-name: battleships
-symbol: hostile
+name: Battleships
+symbol: Hostile
 level: 2
 groups:
   - common-minimal-ships

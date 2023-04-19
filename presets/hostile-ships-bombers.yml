@@ -1,6 +1,6 @@
 ---
-name: bombers
-symbol: hostile
+name: Bombers
+symbol: Hostile
 level: 2
 groups:
   - common-minimal-ships

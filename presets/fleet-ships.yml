@@ -1,6 +1,6 @@
 ---
-name: ships
-symbol: fleet
+name: Ships
+symbol: Fleet
 level: 1
 groups:
   - common-pvp

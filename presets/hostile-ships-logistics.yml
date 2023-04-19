@@ -1,6 +1,6 @@
 ---
-name: logistics
-symbol: hostile
+name: Logistics
+symbol: Hostile
 level: 2
 groups:
   - common-minimal-ships

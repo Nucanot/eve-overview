@@ -1,6 +1,6 @@
 ---
 name: ""
-symbol: hostile
+symbol: Hostile
 level: 4
 groups:
   - common-pvp
