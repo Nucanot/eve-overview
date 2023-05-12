@@ -1,0 +1,10 @@
+---
+name: Hostiles + Friendlies
+symbol: ZZZ Tournament
+level: 3
+groups:
+  - _at_tournament_practice_unit
+  - _at_tournament_micro_jump_unit
+  - _ship_no-pods
+states:
+  - all

@@ -1,0 +1,15 @@
+---
+name: AT
+symbol: ZZZ Brackets
+level: 1
+groups:
+  - _ship
+  - _drone
+  - bombs
+  - containers
+  - _celestial-wreck
+  - _deployable
+  - beacons
+  - bubbles
+states:
+  - all

@@ -1,0 +1,9 @@
+---
+name: Hostiles
+symbol: ZZZ Tournmanet
+level: 3
+groups:
+  - _at_tournament_practice_unit
+  - _ship_no-pods
+states:
+  - hostile
