@@ -2,8 +2,8 @@
 columnOrder:
   - ICON
   - DISTANCE
-  - NAME
   - TYPE
+  - NAME
   - VELOCITY
   - ALLIANCE
   # - TAG
