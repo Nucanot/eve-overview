@@ -8,5 +8,6 @@ groups:
   - large_collidables
   - _ship
   - _drone
+  - gates
 states:
   - hostile
