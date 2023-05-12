@@ -6,7 +6,7 @@
 
 - name: ▲  # hostile ships, gates, structures, deployables, sun, rats
   color: FFFF1A1A
-  overview: _main-hostiles-no-pods
+  overview: _main-hostiles
   bracket: brackets-all
 
 - name: ⊞⊞ # Clean grid: hostiles+friendlies
