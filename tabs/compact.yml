@@ -4,7 +4,7 @@
   overview: _main
   bracket: brackets-all
 
-- name: ▲  # hostile ships, gates, structures, deployables, sun, rats
+- name: ▲  # hostile ships, gates, structures, deployables, sun
   color: FFFF1A1A
   overview: _main-hostiles
   bracket: brackets-all
