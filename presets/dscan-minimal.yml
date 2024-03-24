@@ -1,0 +1,9 @@
+---
+name: "Minimal"
+symbol: ✥ D-Scan
+level: 3
+groups:
+  - common-minimal
+  - _ship
+states:
+  - hostile
